@@ -5,7 +5,7 @@ function Nav() {
     return (
         <div>
 
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-base-100 shadow p-5">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -36,7 +36,10 @@ function Nav() {
                             <li><a>Item 3</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <div className=" flex items-center gap-2 ">
+                        <img className=" h-[50px] " src="https://cdn-icons-png.flaticon.com/128/10303/10303368.png" alt="" />
+                        <a className="text-xl">React Advance Concept</a>
+                    </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
