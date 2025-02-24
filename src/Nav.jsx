@@ -1,19 +1,13 @@
 import { NavLink } from "react-router-dom"
 
-
-
 function Nav() {
 
     const navZ = <>
-
         <li><NavLink to='/'>Home</NavLink></li>
-
     </>
-
 
     return (
         <div>
-
             <div className="navbar bg-base-100 shadow p-5">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -48,7 +42,6 @@ function Nav() {
                     </ul>
                 </div>
             </div>
-
         </div>
     )
 }
