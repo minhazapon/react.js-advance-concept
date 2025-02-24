@@ -22,13 +22,13 @@ function Ref() {
             <div className=" mt-10 flex justify-center ">
                 <div>
                     <form onSubmit={handleRefForm}>
-                        <input ref={name} className=" p-3 h-[50px] w-[600px] border-[1px]" placeholder="Name" name="name" type="text" />
+                        <input required ref={name} className=" p-3 h-[50px] w-[600px] border-[1px]" placeholder="Name" name="name" type="text" />
                         <br></br>
-                        <input ref={email} className=" p-3 h-[50px] w-[600px] border-[1px]" placeholder="Name" name="email" type="email" />
+                        <input required ref={email} className=" p-3 h-[50px] w-[600px] border-[1px]" placeholder="Name" name="email" type="email" />
                         <br></br>
-                        <input ref={number} className=" p-3 h-[50px] w-[600px] border-[1px]" placeholder="Name" name="number" type="number" />
+                        <input required ref={number} className=" p-3 h-[50px] w-[600px] border-[1px]" placeholder="Name" name="number" type="number" />
                         <br></br>
-                        <input ref={password} className=" p-3 h-[50px] w-[600px] border-[1px]" placeholder="Name" name="password" type="password" />
+                        <input required ref={password} className=" p-3 h-[50px] w-[600px] border-[1px]" placeholder="Name" name="password" type="password" />
                         <br></br>
                         <input className=" btn p-3 h-[50px] w-[600px] bg-black text-white rounded-none " type="submit" value="Submit" />
                         <br></br>
