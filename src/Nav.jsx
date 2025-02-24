@@ -1,7 +1,16 @@
+import { NavLink } from "react-router-dom"
 
 
 
 function Nav() {
+
+    const navZ = <>
+
+        <li><NavLink to='/'>Home</NavLink></li>
+
+    </>
+
+
     return (
         <div>
 
