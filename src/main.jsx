@@ -9,6 +9,7 @@ import {
 import Home from './Home';
 import Root from './Root';
 import UseId from './useId/UseId';
+import PD from './props driling/PD';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "/id",
         element: <UseId></UseId>,
+      },
+      {
+        path: "/pd",
+        element: <PD></PD>,
       },
     ],
   },
