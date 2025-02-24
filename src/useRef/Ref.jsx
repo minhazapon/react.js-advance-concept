@@ -1,6 +1,5 @@
 import { useRef } from "react"
 
-
 function Ref() {
 
     const name = useRef("")
