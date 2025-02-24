@@ -4,6 +4,7 @@ function Nav() {
 
     const navZ = <>
         <li><NavLink to='/'>Home</NavLink></li>
+        <li><NavLink to='/id'>useID</NavLink></li>
     </>
 
     return (
