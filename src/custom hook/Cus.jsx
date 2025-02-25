@@ -1,9 +1,10 @@
-import { useContext } from "react"
+
+import { use } from "react"
 import { UserContext } from "../context API/Context"
 
 export const useAllContext = () => {
 
-    const conApi = useContext(UserContext)
+    const conApi = use(UserContext)
     return conApi
 
 }

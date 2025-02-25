@@ -11,6 +11,7 @@ import Root from './Root';
 import UseId from './useId/UseId';
 import PD from './props driling/PD';
 import Context, { UserContext } from './context API/Context';
+import UseHook from './use hook/UseHook';
 
 
 const router = createBrowserRouter([
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "/context",
         element: <Context></Context>,
+      },
+      {
+        path: "/use",
+        element: <UseHook></UseHook>,
       },
     ],
   },
