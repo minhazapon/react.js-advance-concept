@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "name": "Milk Chocolate",
+      "brand": "Cadbury",
+      "cocoa_percentage": 30,
+      "price": 150,
+      "weight": "100g",
+      "origin": "UK",
+      "ingredients": ["Sugar", "Cocoa Butter", "Milk", "Cocoa Mass", "Lecithin", "Vanillin"],
+      "type": "Milk Chocolate"
+    },
+    {
+      "id": 2,
+      "name": "Dark Chocolate",
+      "brand": "Lindt",
+      "cocoa_percentage": 70,
+      "price": 250,
+      "weight": "100g",
+      "origin": "Switzerland",
+      "ingredients": ["Cocoa Mass", "Cocoa Butter", "Sugar", "Vanilla"],
+      "type": "Dark Chocolate"
+    },
+    {
+      "id": 3,
+      "name": "White Chocolate",
+      "brand": "Nestlé",
+      "cocoa_percentage": 0,
+      "price": 180,
+      "weight": "100g",
+      "origin": "Switzerland",
+      "ingredients": ["Sugar", "Cocoa Butter", "Milk Solids", "Lecithin", "Vanilla"],
+      "type": "White Chocolate"
+    },
+    {
+      "id": 4,
+      "name": "Hazelnut Chocolate",
+      "brand": "Ferrero Rocher",
+      "cocoa_percentage": 50,
+      "price": 300,
+      "weight": "125g",
+      "origin": "Italy",
+      "ingredients": ["Sugar", "Cocoa Mass", "Cocoa Butter", "Hazelnuts", "Milk", "Lecithin"],
+      "type": "Nut Chocolate"
+    },
+    {
+      "id": 5,
+      "name": "Caramel Chocolate",
+      "brand": "Galaxy",
+      "cocoa_percentage": 40,
+      "price": 200,
+      "weight": "120g",
+      "origin": "UK",
+      "ingredients": ["Sugar", "Cocoa Butter", "Milk", "Cocoa Mass", "Caramel", "Lecithin"],
+      "type": "Caramel Chocolate"
+    },
+    {
+      "id": 6,
+      "name": "Almond Chocolate",
+      "brand": "Hershey's",
+      "cocoa_percentage": 45,
+      "price": 220,
+      "weight": "110g",
+      "origin": "USA",
+      "ingredients": ["Sugar", "Cocoa Mass", "Cocoa Butter", "Almonds", "Milk", "Lecithin"],
+      "type": "Nut Chocolate"
+    },
+    {
+      "id": 7,
+      "name": "Mint Chocolate",
+      "brand": "After Eight",
+      "cocoa_percentage": 60,
+      "price": 260,
+      "weight": "90g",
+      "origin": "UK",
+      "ingredients": ["Sugar", "Cocoa Mass", "Cocoa Butter", "Milk", "Mint Flavor", "Lecithin"],
+      "type": "Flavored Chocolate"
+    },
+    {
+      "id": 8,
+      "name": "Orange Chocolate",
+      "brand": "Terry's",
+      "cocoa_percentage": 55,
+      "price": 230,
+      "weight": "100g",
+      "origin": "UK",
+      "ingredients": ["Sugar", "Cocoa Mass", "Cocoa Butter", "Milk", "Orange Flavor", "Lecithin"],
+      "type": "Flavored Chocolate"
+    },
+    {
+      "id": 9,
+      "name": "Ruby Chocolate",
+      "brand": "Barry Callebaut",
+      "cocoa_percentage": 47,
+      "price": 350,
+      "weight": "100g",
+      "origin": "Belgium",
+      "ingredients": ["Ruby Cocoa Beans", "Sugar", "Cocoa Butter", "Milk", "Lecithin"],
+      "type": "Ruby Chocolate"
+    },
+    {
+      "id": 10,
+      "name": "Sea Salt Dark Chocolate",
+      "brand": "Godiva",
+      "cocoa_percentage": 72,
+      "price": 280,
+      "weight": "95g",
+      "origin": "Belgium",
+      "ingredients": ["Cocoa Mass", "Cocoa Butter", "Sugar", "Sea Salt", "Vanilla"],
+      "type": "Dark Chocolate"
+    }
+  ]
+  
