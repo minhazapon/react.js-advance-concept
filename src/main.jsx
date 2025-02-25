@@ -11,6 +11,7 @@ import Root from './Root';
 import UseId from './useId/UseId';
 import PD from './props driling/PD';
 import Context from './context API/Context';
+import Cus from './custom hook/Cus';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "/context",
         element: <Context></Context>,
+      },
+      {
+        path: "/cus",
+        element: <Cus></Cus>,
       },
     ],
   },
