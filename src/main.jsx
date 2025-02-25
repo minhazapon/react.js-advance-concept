@@ -10,7 +10,7 @@ import Home from './Home';
 import Root from './Root';
 import UseId from './useId/UseId';
 import PD from './props driling/PD';
-import Context from './context API/Context';
+import Context, { UserContext } from './context API/Context';
 import Cus from './custom hook/Cus';
 
 const router = createBrowserRouter([
@@ -44,6 +44,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <UserContext.Provider>
+      <RouterProvider router={router} />
+    </UserContext.Provider>
   </StrictMode>,
 )
