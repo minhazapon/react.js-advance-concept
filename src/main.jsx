@@ -10,6 +10,7 @@ import Home from './Home';
 import Root from './Root';
 import UseId from './useId/UseId';
 import PD from './props driling/PD';
+import Context from './context API/Context';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "/pd",
         element: <PD></PD>,
+      },
+      {
+        path: "/context",
+        element: <Context></Context>,
       },
     ],
   },
