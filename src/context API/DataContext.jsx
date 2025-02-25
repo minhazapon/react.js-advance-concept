@@ -1,9 +1,10 @@
-import { useContext } from "react"
-import { UserContext } from "./Context"
+// import { useContext } from "react"
+// import { UserContext } from "./Context"
+import { useAllContext } from "../custom hook/Cus"
 
 function Data() {
 
-    const darshana = useContext(UserContext)
+    const darshana = useAllContext()
 
     return (
 

@@ -1,12 +1,9 @@
+import { useContext } from "react"
+import { UserContext } from "../context API/Context"
 
+export const useAllContext = () => {
 
+    const conApi = useContext(UserContext)
+    return conApi
 
-function Cus() {
-    return (
-        <div>
-
-        </div>
-    )
 }
-
-export default Cus

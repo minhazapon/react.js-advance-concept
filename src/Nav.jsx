@@ -7,7 +7,6 @@ function Nav() {
         <li><NavLink to='/id'>useID</NavLink></li>
         <li><NavLink to='/pd'>Props Driling</NavLink></li>
         <li><NavLink to='/context'>Context API</NavLink></li>
-        <li><NavLink to='/cus'>Custom hooks</NavLink></li>
     </>
 
     return (
