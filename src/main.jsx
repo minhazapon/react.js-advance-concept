@@ -11,6 +11,7 @@ import Root from './Root';
 import UseId from './useId/UseId';
 import PD from './props driling/PD';
 import Context, { UserContext } from './context API/Context';
+import Dark from './Dark mode/Dark';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "/context",
         element: <Context></Context>,
+      },
+      {
+        path: "/dark",
+        element: <Dark></Dark>,
       },
     ],
   },

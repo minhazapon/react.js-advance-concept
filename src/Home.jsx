@@ -1,4 +1,4 @@
-import Dark from "./Dark mode/Dark"
+
 import FRef from "./useRef/FRef"
 import Ref from "./useRef/Ref"
 
@@ -8,7 +8,7 @@ function Home() {
         <div>
             <Ref></Ref>
             <FRef></FRef>
-            <Dark></Dark>
+
         </div>
     )
 }
