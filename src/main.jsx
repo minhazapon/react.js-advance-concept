@@ -10,8 +10,8 @@ import Home from './Home';
 import Root from './Root';
 import UseId from './useId/UseId';
 import PD from './props driling/PD';
-import Context, { UserContext } from './context API/Context';
 import Dark from './Dark mode/Dark';
+import ThemeProvider from './Dark mode/ThemeProvider';
 
 const router = createBrowserRouter([
   {
@@ -31,10 +31,6 @@ const router = createBrowserRouter([
         element: <PD></PD>,
       },
       {
-        path: "/context",
-        element: <Context></Context>,
-      },
-      {
         path: "/dark",
         element: <Dark></Dark>,
       },
@@ -44,8 +40,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <UserContext.Provider>
+    <ThemeProvider>
       <RouterProvider router={router} />
-    </UserContext.Provider>
-  </StrictMode>,
+    </ThemeProvider>
+  </StrictMode >,
 )
