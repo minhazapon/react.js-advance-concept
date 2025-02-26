@@ -10,8 +10,7 @@ import Home from './Home';
 import Root from './Root';
 import UseId from './useId/UseId';
 import PD from './props driling/PD';
-import Dark from './Dark mode/Dark';
-import ThemeProvider from './Dark mode/ThemeProvider';
+import DeepDark from './Dark mode/DeepDark';
 
 const router = createBrowserRouter([
   {
@@ -32,7 +31,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/dark",
-        element: <Dark></Dark>,
+        element: <DeepDark></DeepDark>,
       },
     ],
   },
@@ -40,8 +39,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ThemeProvider>
-      <RouterProvider router={router} />
-    </ThemeProvider>
+    <RouterProvider router={router} />
   </StrictMode >,
 )
