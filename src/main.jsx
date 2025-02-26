@@ -11,6 +11,7 @@ import Root from './Root';
 import UseId from './useId/UseId';
 import PD from './props driling/PD';
 import DeepDark from './Dark mode/DeepDark';
+import ColorThemeProvider from './Dark mode/ThemeProvider2';
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <ColorThemeProvider>
+      <RouterProvider router={router} />
+    </ColorThemeProvider>
   </StrictMode >,
 )

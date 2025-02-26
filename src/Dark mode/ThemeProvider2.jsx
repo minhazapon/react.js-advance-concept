@@ -2,7 +2,7 @@ import { useState } from "react"
 import { createContext } from "react"
 
 
-export const ThemeContext = createContext()
+export const ThemeContext2 = createContext()
 
 function ColorThemeProvider({ children }) {
 
@@ -15,9 +15,9 @@ function ColorThemeProvider({ children }) {
     return (
         <>
             <div>
-                <ThemeContext.Provider value={{ darkMode, handleDarkMode }}>
+                <ThemeContext2.Provider value={{ darkMode, handleDarkMode }}>
                     {children}
-                </ThemeContext.Provider>
+                </ThemeContext2.Provider>
             </div>
         </>
     )
