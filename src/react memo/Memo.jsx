@@ -8,14 +8,11 @@ function Memo() {
 
     return (
         <div>
-
             <div className=" flex justify-center items-center mt-10">
                 <p> {count} </p>
                 <button onClick={() => setData((preValue) => preValue + 1)} className=" btn ">increment</button>
             </div>
-
             <ChildMemo name="apon" ></ChildMemo>
-
         </div>
     )
 }
