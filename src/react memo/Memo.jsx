@@ -1,7 +1,6 @@
 import { useState } from "react"
 import ChildMemo from "./ChildMemo"
 
-
 function Memo() {
 
     const [count, setData] = useState(0)
