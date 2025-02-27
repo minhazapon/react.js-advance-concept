@@ -1,4 +1,5 @@
 import { useReducer } from "react"
+import Re from "./Re"
 
 
 function Reducer() {
@@ -26,6 +27,9 @@ function Reducer() {
                     <p> {count} </p>
                     <button onClick={() => dispatch({ type: "Decrement" })} className=" btn w-[400px] bg-black text-white">Decrement</button>
                     <button onClick={() => dispatch({ type: "RESET" })} className=" btn w-[400px] bg-black text-white">RESET</button>
+                </div>
+                <div>
+                    <Re></Re>
                 </div>
             </div>
         </>

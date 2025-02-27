@@ -1,0 +1,13 @@
+[
+    { "id": 1, "name": "Chicken Burger", "price": 250, "description": "A delicious chicken burger with fresh lettuce and mayo." },
+    { "id": 2, "name": "Beef Burger", "price": 300, "description": "Juicy beef patty with cheddar cheese and BBQ sauce." },
+    { "id": 3, "name": "French Fries", "price": 150, "description": "Crispy golden fries with special seasoning." },
+    { "id": 4, "name": "Pizza Margherita", "price": 500, "description": "Classic Margherita pizza with mozzarella and basil." },
+    { "id": 5, "name": "Pasta Alfredo", "price": 400, "description": "Creamy Alfredo pasta with chicken and mushrooms." },
+    { "id": 6, "name": "Fried Chicken", "price": 350, "description": "Crispy fried chicken with a secret blend of spices." },
+    { "id": 7, "name": "Grilled Sandwich", "price": 200, "description": "Toasted bread with grilled chicken and fresh veggies." },
+    { "id": 8, "name": "Chocolate Shake", "price": 180, "description": "Rich chocolate shake topped with whipped cream." },
+    { "id": 9, "name": "Mango Juice", "price": 120, "description": "Fresh mango juice with a hint of lemon." },
+    { "id": 10, "name": "Tandoori Chicken", "price": 450, "description": "Authentic Indian-style tandoori chicken with yogurt marinade." }
+  ]
+  
