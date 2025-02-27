@@ -14,6 +14,7 @@ import DeepDark from './Dark mode/DeepDark';
 import ColorThemeProvider from './Dark mode/ThemeProvider2';
 import Reducer from './use reducer/Reducer';
 import Memo from './react memo/Memo';
+import UM from './use memo/UM';
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
       {
         path: "/memo",
         element: <Memo></Memo>,
+      },
+      {
+        path: "/um",
+        element: <UM></UM>,
       },
     ],
   },
