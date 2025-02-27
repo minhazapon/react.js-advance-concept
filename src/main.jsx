@@ -13,6 +13,7 @@ import PD from './props driling/PD';
 import DeepDark from './Dark mode/DeepDark';
 import ColorThemeProvider from './Dark mode/ThemeProvider2';
 import Reducer from './use reducer/Reducer';
+import Memo from './react memo/Memo';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path: "/re",
         element: <Reducer></Reducer>,
+      },
+      {
+        path: "/memo",
+        element: <Memo></Memo>,
       },
     ],
   },

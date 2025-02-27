@@ -8,6 +8,7 @@ function Nav() {
         <li><NavLink to='/pd'>Props Driling</NavLink></li>
         <li><NavLink to='/dark'>Dark Mode</NavLink></li>
         <li><NavLink to='/re'>use Reducer</NavLink></li>
+        <li><NavLink to='/memo'>React.memo</NavLink></li>
     </>
 
     return (
