@@ -7,6 +7,7 @@ function Nav() {
         <li><NavLink to='/id'>useID</NavLink></li>
         <li><NavLink to='/pd'>Props Driling</NavLink></li>
         <li><NavLink to='/dark'>Dark Mode</NavLink></li>
+        <li><NavLink to='/re'>use Reducer</NavLink></li>
     </>
 
     return (

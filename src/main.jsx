@@ -12,6 +12,7 @@ import UseId from './useId/UseId';
 import PD from './props driling/PD';
 import DeepDark from './Dark mode/DeepDark';
 import ColorThemeProvider from './Dark mode/ThemeProvider2';
+import Reducer from './use reducer/Reducer';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "/dark",
         element: <DeepDark></DeepDark>,
+      },
+      {
+        path: "/re",
+        element: <Reducer></Reducer>,
       },
     ],
   },
