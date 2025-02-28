@@ -15,6 +15,7 @@ import ColorThemeProvider from './Dark mode/ThemeProvider2';
 import Reducer from './use reducer/Reducer';
 import Memo from './react memo/Memo';
 import UM from './use memo/UM';
+import Call from './useCallBack/Call';
 
 const router = createBrowserRouter([
   {
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
       {
         path: "/um",
         element: <UM></UM>,
+      },
+      {
+        path: "/call",
+        element: <Call></Call>,
       },
     ],
   },

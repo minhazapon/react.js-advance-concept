@@ -10,6 +10,7 @@ function Nav() {
         <li><NavLink to='/re'>use Reducer</NavLink></li>
         <li><NavLink to='/memo'>React.memo</NavLink></li>
         <li><NavLink to='/um'>use Memo</NavLink></li>
+        <li><NavLink to='/call'>use Callback</NavLink></li>
     </>
 
     return (
