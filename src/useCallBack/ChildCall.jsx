@@ -1,5 +1,5 @@
 
-
+import { memo } from "react"
 
 function ChildCall({ onIncrement }) {
 
@@ -14,4 +14,4 @@ function ChildCall({ onIncrement }) {
     )
 }
 
-export default ChildCall
+export default memo(ChildCall)
